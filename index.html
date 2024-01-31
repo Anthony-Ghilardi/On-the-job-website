@@ -12,6 +12,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 
 <body>
@@ -228,6 +231,62 @@
     </section>
   </footer>
 <!-- Footer ends here -->
+<script>
+      $(document).ready(function() {
+
+// fadeIn elements starts
+var logoIcon = $(".logo-icon")
+  logoIcon.delay(300).fadeIn(5000);
+  logoIcon.animate ({
+    opacity: 600
+  });
+    
+var menuContainer = $(".menu-file-container")
+  menuContainer.delay(300).fadeIn(5000);
+  menuContainer.animate ({
+    opacity: 600
+  });
+
+var mathFavorites = $(".favorites")
+  mathFavorites.delay(300).fadeIn(5000);
+  mathFavorites.animate ({
+    opacity: 600
+  });
+    
+var foodImg = $(".food img")
+  foodImg.delay(300).fadeIn(5000);
+  foodImg.animate ({
+    opacity: 600
+  });
+    
+var location = $(".location")
+  location.delay(300).fadeIn(5000);
+  location.animate ({
+    opacity: 600
+  });
+
+var locationTitle = $(".location-title")
+  locationTitle.delay(300).fadeIn(5000);
+  locationTitle.animate ({
+    opacity: 600
+  });
+    
+var locationP = $(".location p")
+  locationP.delay(300).fadeIn(5000);
+  locationP.animate ({
+    opacity: 600
+  });
+    
+var hours = $(".hours")
+  hours.delay(300).fadeIn(5000);
+  hours.animate ({
+    opacity: 600
+  });
+
+//fadeIn elements ends    
+    });
+
+</script>
 </body>
 
 </html>
