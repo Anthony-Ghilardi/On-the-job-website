@@ -1,0 +1,338 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  } 
+  
+  .nav-bar {
+    background-color: #800000;
+    padding: 20px 10px;
+  }
+  
+  .nav-items {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 500px !important;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+  
+  .nav-bar .nav-items li a{
+    padding: 4px 2px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .background-container {
+    background-image: url("https://images.pexels.com/photos/5779658/pexels-photo-5779658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    padding: 60px 15px 100px;
+    background-attachment: fixed;
+  }
+  
+  .logo-icon .logo-image {
+    display: inline-block;
+    text-decoration: none;
+    max-width: 280px !important;
+    width: 100%;
+    height: 280px !important;
+    margin: 0 auto 50px;
+    background-color: #800000;
+    border-radius: 50%;
+    border: 6px solid #800000;
+  }
+  
+  .logo-image img {
+    max-width: 280px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  
+  .page-title {
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    font-style: solid;
+  }
+  
+  .logo-icon {
+    display: none;
+  }
+  
+  .logo-icon .logo-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  
+  .about-us {
+    background-color: #ffd699;
+    padding: 20px 10px;
+  }
+  
+  .about-title {
+    display: flex;
+    text-align: left;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    color: #800000;
+    font-size: 50px;
+    margin: 0 auto;
+    padding-left: 20%;
+    background-color: #ffd699;
+  }
+  
+  .about-us-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffd699;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    magrin: 0 auto;
+  }
+  
+  .about-text {
+    font-stretch: condensed;
+    font-family: 'Caveat', cursive;
+    color: #800000;
+    font-size: 32px;
+    text-align: left;
+  }
+  
+  .about-img {
+    padding-left: 20px;
+    width: 140%;
+    height: 140%;
+  }
+  
+  .menu-file-container {
+    display: none;
+    padding: 40px 0px;
+  }
+  
+  .menu-file-container h1 {
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    color: #cc7a00;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 35px;
+    text-align: center;
+  }
+  
+  .menu-file-container .menu-file {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  
+  .menu-file .wrap-sheet,
+  .menu-file .sides {
+    max-width: 455px;
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  
+  .menu-file .wrap-sheet {
+    margin-right: 20px !important;
+  }
+  
+  .menu-file h2 {
+    font-size: 32px;
+    font-weight: 900;
+  }
+  
+  .menu-file h1 {
+    display: flex;
+    margin: 0 0 15px;
+  }
+  
+  .menu-file .menu-content h3 {
+    margin: 0 0 2px;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
+    color:#800000;
+  }
+  
+  .menu-file .menu-content p {
+    margin: 1;
+    font-weight: 500;
+    font-family: 'Caveat', cursive;
+    font-size: 18px;
+  }
+  
+  .menu-file .side-content h3 {
+    margin: 0 0 2px;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
+    color:#800000;  
+  }
+  
+  .menu-file .side-content p {
+    margin: 1;
+    font-weight: 500;
+    font-family: 'Caveat', cursive;
+    font-size: 18px;  
+  }
+  
+  .menu-file .small-text {
+    font-family: 'Caveat', cursive;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .favorites {
+    display: none;
+    background-color: #800000;
+  }
+  
+  .favorites .favorites-header h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    font-size: 45px;
+    color: #cc7a00;
+  }
+  
+  .favorites .favorites-info p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  .food-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #800000;
+  }
+  
+  .food img {
+    display: none;
+    width: 90%;
+    height: 90%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  
+  .photo-location-div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .location {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffd699;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    width: 30%;
+    border: solid;
+  }
+  
+  .location-title {
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    color: #800000;
+    display: none;
+  }
+  
+  .text-container {
+    text-align: center;
+  }
+  
+  .location p {
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    color: #800000;
+    display: none;
+  }
+  
+  .map-image {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    max-width: 50%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .hours h2 {
+    font-family: 'Caveat', cursive;
+    color: #800000;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .hours ul {
+    font-family: 'Caveat', cursive;
+    color: #800000;
+    font-size: 25px;
+    list-style-type: none;
+    padding: 80px;
+    margin: 10px;
+  }
+  
+  .hours li {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+  }
+  
+  .footer{
+    background-color: #fca858; 
+  }
+  
+  .link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 400px;
+  
+  }
+  
+  .link img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 400px;
+    width: 30%;
+    height: 30%;  
+  }
+  
+  .wiki-link {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  .llc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
